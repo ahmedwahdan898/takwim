@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://takwim.ahmadwahdan.com/sitemap.xml
