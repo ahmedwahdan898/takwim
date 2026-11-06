@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://takwim.ahmadwahdan.com/sitemap.xml
+Sitemap: https://takwim.kadmly.com/sitemap.xml
