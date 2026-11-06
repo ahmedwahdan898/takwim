@@ -1,0 +1,5 @@
+RewriteEngine On
+# Send the old subdomain and www to the canonical URL
+RewriteCond %{HTTP_HOST} ^(www\.)?takwim\.kadmly\.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www\.kadmly\.com$ [NC]
+RewriteRule ^(.*)$ https://kadmly.com/takwim/$1 [R=301,L]
